@@ -4,9 +4,7 @@ answer = 0
 for i in range (N):
     arr = list(map(int, str(i)))
     check = i + sum(arr)
-    print(check)
     if check == N:
-        print(sum(arr))
         answer = i
         break
 print(answer)
